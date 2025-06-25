@@ -10,7 +10,7 @@ import {
   X, 
   LogOut, 
   LayoutDashboard, 
-  Database 
+  Contact2
 } from 'lucide-react';
 
 const Navbar = () => {
@@ -37,6 +37,7 @@ const Navbar = () => {
     { path: '/list', label: 'Properties', icon: List },
     { path: '/add', label: 'Add Property', icon: PlusSquare },
     { path: '/appointments', label: 'Appointments', icon: Calendar },
+    { path: '/contacts', label: 'Contacts', icon: Contact2 },
   ];
 
   return (
